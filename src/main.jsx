@@ -1,9 +1,9 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-import {Gift_Finder} from './Gift-Finder'
+import {Gif_Finder} from './Gif-Finder'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <Gift_Finder />
+    <Gif_Finder />
   </React.StrictMode>,
 )
