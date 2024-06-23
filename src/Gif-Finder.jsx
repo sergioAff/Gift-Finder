@@ -10,7 +10,6 @@ export const Gif_Finder = () => {
       alert(`Ya existe ${newCategory}`);
       return;
     }
-    // console.log(newCategory)
     setCategories([...categories, newCategory]);
   };
 
