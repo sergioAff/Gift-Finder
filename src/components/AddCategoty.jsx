@@ -8,16 +8,23 @@ export const AddCategory = ({ onNewCategory }) => {
   };
 
   const addValue = (event) => {
-    onNewCategory(inputValue.trim());
-    event.preventDefault();
-    setInputValue("");
+    const newInputValue = inputValue.trim();
+    if (newInputValue.length <= 1) {
+      alert("Debe escribir mas de 1 caracter");
+      event.preventDefault();
+      return;
+    } else {
+      onNewCategory(newInputValue);
+      event.preventDefault();
+      setInputValue("");
+    }
   };
 
   return (
     <form action="" onSubmit={addValue}>
       <input
         type="text"
-        placeholder="Valor nuevo"
+        placeholder="Nuevo gift"
         value={inputValue}
         onChange={onChange}
       />

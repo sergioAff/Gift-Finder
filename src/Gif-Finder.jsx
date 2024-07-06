@@ -7,15 +7,15 @@ export const Gif_Finder = () => {
 
   const onAddCategory = (newCategory) => {
     if (categories.includes(newCategory)) {
-      alert(`Ya existe ${newCategory}`);
+      alert(`Ya buscaste ${newCategory}`);
       return;
     }
-    setCategories([...categories, newCategory]);
+    setCategories([newCategory, ...categories]);
   };
 
   return (
     <>
-      <h1>Gif Finder</h1>
+      <h1>Gift Finder</h1>
       <AddCategory onNewCategory={onAddCategory} />
       {categories.map((category) => (
         <GifGrid key={category} category={category} />
