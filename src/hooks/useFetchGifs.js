@@ -8,7 +8,7 @@ export const useFetchGifs = (category) => {
   const fetchGifs = async () => {
     const newGifs = await getGif(category);
     setGifs(newGifs);
-    setIsLoading(!isLoading);
+    setIsLoading(false);
   };
   useEffect(() => {
     fetchGifs();
