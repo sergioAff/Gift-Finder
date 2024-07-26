@@ -8,6 +8,17 @@ Gif Finder es una aplicación web que te permite buscar y visualizar GIFs utiliz
 - Visualización de GIFs en una cuadrícula responsiva.
 - Indicador de carga mientras se obtienen los GIFs.
 
+## Imagenes
+
+## Vista en mobile
+<img width="494" alt="Captura de pantalla 2024-07-26 a la(s) 9 04 45 a m" src="https://github.com/user-attachments/assets/8e31872a-50aa-4eda-b1fc-98f970fb8aab">
+
+## Vista en dektop
+<img width="1710" alt="Captura de pantalla 2024-07-26 a la(s) 9 01 11 a m" src="https://github.com/user-attachments/assets/3f3fef2e-d224-434e-ac42-59d76648e01d">
+
+## Vista con busquedas
+<img width="1710" alt="Captura de pantalla 2024-07-26 a la(s) 9 04 19 a m" src="https://github.com/user-attachments/assets/ce4f7f88-9a4e-44de-8955-204ccff3a947">
+
 ## Instalación
 
 Para correr este proyecto localmente, sigue estos pasos:
